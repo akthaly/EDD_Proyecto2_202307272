@@ -1,4 +1,4 @@
-class Clientes():
+class Cliente():
     def __init__ (self, dpi, nombres, apellidos, genero, telefono, direccion):
         self.dpi = dpi
         self.nombre = nombres
@@ -6,6 +6,9 @@ class Clientes():
         self.genero = genero
         self.telefono = telefono
         self.direccion = direccion
+
+    def __str__(self):
+        return f"DPI: {self.dpi}, Nombre: {self.nombre}, Apellido: {self.apellido}, Género: {self.genero}, Teléfono: {self.telefono}, Dirección: {self.direccion}"
 
     def getDPI(self):
         return self.dpi

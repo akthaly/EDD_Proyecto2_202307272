@@ -1,8 +1,11 @@
-class Rutas():
+class Ruta():
     def __init__(self, origen, destino, tiempo_de_ruta):
         self.origen = origen
         self.destino = destino
         self.tiempo_de_ruta = tiempo_de_ruta
+
+    def __str__(self):
+        return f"Origen: {self.origen}, Destino: {self.destino}, Tiempo de Ruta: {self.tiempo_de_ruta}"
 
     def getOrigen(self):
         return self.origen

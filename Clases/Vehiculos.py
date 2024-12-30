@@ -1,9 +1,12 @@
-class Vehiculos():
+class Vehiculo():
     def __init__ (self, placa, marca, modelo, precio_por_segundo):
         self.placa = placa
         self.marca = marca
         self.modelo = modelo
         self.precio_por_segundo = precio_por_segundo
+
+    def __str__(self):
+        return f"Placa: {self.placa}, Marca: {self.marca}, Modelo: {self.modelo}, Precio por segundo: {self.precio_por_segundo}"
 
 
     def getPlaca(self):

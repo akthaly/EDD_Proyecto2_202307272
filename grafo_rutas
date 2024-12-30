@@ -1,0 +1,9 @@
+graph GrafoRutas {
+	Oviedo -- Bilbao [label=304]
+	Bilbao -- Zaragoza [label=324]
+	Bilbao -- Madrid [label=395]
+	Bilbao -- Valladolid [label=280]
+	Zaragoza -- Barcelona [label=296]
+	Zaragoza -- Madrid [label=325]
+	Barcelona -- Gerona [label=100]
+}
